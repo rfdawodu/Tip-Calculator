@@ -31,6 +31,7 @@ input {
   background-color: rgb(43, 43, 93);
   margin-top: 3rem;
   color: white;
+  outline: none;
 }
 label {
   font-size: 2rem;
@@ -118,14 +119,14 @@ button {
 }
 @media (max-width: 800px) {
   main {
-    width: 75%;
+    width: 85%;
   }
   input {
     width: 100%;
     padding: 1rem 3rem;
   }
   .per {
-    margin-left: 16rem;
+    margin-left: 14rem;
     position: absolute;
   }
 }
